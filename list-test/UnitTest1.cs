@@ -12,6 +12,16 @@ public class UnitTest1
         list.Add_first(assertStetment);
         Assert.Equal(assertStetment, list.GetElement().data);
     }
+    //changed after review
+    [Fact]
+    public void RemoveFirstChecTwo()
+    {
+        OurLinkedList list = new OurLinkedList();
+        list.Add_first(1);
+        list.RemoveFirst();
+        Assert.Equal(null, list.GetElement());
+    }
+
     [Fact]
     public void RemoveFirstCheck()
     {
