@@ -32,11 +32,11 @@ namespace enkelt_kædet_liste
             //removeFirst(data) metode (5-8 min)  removeFirstCheck Elementet før og efter, bekræftet.
             //tag first.next og gem dataen i en variabel og sæt first.next = null, 
             //tag derefter linkedlist.first = element hvor data = variabel
-            //changed after review
             if (first != null && first.next != null)
             {
                 first = first.next;
             }
+            //changed after review
             else if (first != null && first.next == null)
             {
                 first = null;
