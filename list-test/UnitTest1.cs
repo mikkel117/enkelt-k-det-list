@@ -12,9 +12,9 @@ public class UnitTest1
         list.Add_first(assertStetment);
         Assert.Equal(assertStetment, list.GetElement().data);
     }
-    //changed after review
+    //added after review
     [Fact]
-    public void RemoveFirstChecTwo()
+    public void RemoveFirstCheckTwo()
     {
         OurLinkedList list = new OurLinkedList();
         list.Add_first(1);

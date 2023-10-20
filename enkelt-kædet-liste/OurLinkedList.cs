@@ -36,7 +36,7 @@ namespace enkelt_kædet_liste
             {
                 first = first.next;
             }
-            //changed after review
+            //added after review
             else if (first != null && first.next == null)
             {
                 first = null;
